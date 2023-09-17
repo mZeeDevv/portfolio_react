@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Space+Grotesk:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #0F6292;
+}
+body {
+   width: 90vw; 
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 70px;
+}
+.font {
+    font-family: 'Oswald', sans-serif;
+font-family: 'Space Grotesk', sans-serif;
+}
+@media (max-width: 625px) {
+    body {
+        width: 100%; 
+         display: block;
+         position: relative;
+         justify-content: start;
+         background-color: #0F6292;
+     }
+}
