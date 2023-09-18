@@ -10,7 +10,8 @@
 }
 body {
    width: 90vw; 
-    background-color: #000000;
+    /* background-color: #000000; */
+    background-color: #0F6292;
     display: flex;
     justify-content: center;
     position: absolute;

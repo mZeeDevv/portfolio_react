@@ -13,6 +13,11 @@ export default function Taskbar() {
     return true;
    }
   }
+  const myInfo = {
+    LinkedIN: "https://www.linkedin.com/in/hamza-shaukat-b5551925a/",
+    GitHub: "https://github.com/mZeeDevv",
+    Twitter: "https://twitter.com/mZeeDev"
+  }
 
   return (
     <div className='md:text-xl font md:w-40 text-sm w-16'>
@@ -52,18 +57,30 @@ export default function Taskbar() {
       <div className='mt-5 w-16 border border-gray-800 opacity-20 md:w-24'>
       </div>
 
-      <li className='mt-9 cursor-pointer text-sm flex items-center'
+      <a href={myInfo.LinkedIN}>
+      <li className='mt-9 cursor-pointer md:text-sm flex items-center text-[8px]'
       >
-       <SiLinkedin className='md:mx-1'/>Hamza Shaukat
+       <SiLinkedin className='mx-1 '/> Hamza <span className='hidden md:inline-block ml-1'>Shaukat</span>
       </li>
-      <li className='mt-9 cursor-pointer text-sm items-center flex'
+      </a>
+
+
+      <a href={myInfo.GitHub}>
+      <li className='mt-9 cursor-pointer md:text-sm items-center flex text-[10px]'
       >
-       <FaSquareGithub className='md:mx-1'/> mZeeDevv
+       <FaSquareGithub className='mx-1'/>mZeeDevv
       </li>
-      <li className='mt-9 cursor-pointer text-sm items-center flex'
+      </a>
+
+
+     <a href={myInfo.Twitter}>
+     <li className='mt-9 cursor-pointer md:text-sm items-center flex text-[10px]'
       >
-       <FaSquareXTwitter className='md:mx-1'/>mZeeDevv
+       <FaSquareXTwitter className='mx-1'/>mZeeDevv
       </li>
+     </a>
+
+
       </ul>
     </div>
   )
