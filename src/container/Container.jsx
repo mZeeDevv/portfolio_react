@@ -15,7 +15,7 @@ export default function Container() {
       border-double rounded-md'
     >
       <Taskbar/>
-     <div className='mx-4 bg-white w-full'>
+     <div className='mx-4 bg-white w-full border border-[#0F6292] border-l-4'>
      <Routes>
       <Route path='/' element={<About/>} />
       <Route path='/Contact' element={<Contact/>} />

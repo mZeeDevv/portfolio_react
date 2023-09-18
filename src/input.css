@@ -15,7 +15,8 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 70px;
+    top: 50px;
+    height: 110vh;
 }
 .font {
     font-family: 'Oswald', sans-serif;
