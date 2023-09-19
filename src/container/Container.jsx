@@ -11,11 +11,11 @@ export default function Container() {
 
   return (
     <div
-     className='border-4 border-black mx-auto md:h-[750px] md:w-[850px] bg-[#ECF2FF] flex md:p-4 p-2
-      border-double rounded-md'
+     className='border-4 border-black mx-auto md:h-[750px] md:w-[960px] bg-[#ECF2FF] flex
+     md:p-4 md:p-2 border-double rounded-md'
     >
       <Taskbar/>
-     <div className='mx-4 bg-white w-full border border-[#0F6292] border-l-4'>
+     <div className='md:mx-4 bg-white w-full border border-[#0F6292] border-l-4'>
      <Routes>
       <Route path='/' element={<About/>} />
       <Route path='/Contact' element={<Contact/>} />

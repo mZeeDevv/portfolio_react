@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&family=Oswald:wght@600&family=Space+Grotesk:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Space+Grotesk:wght@500&display=swap');
 * {
     margin: 0;
@@ -16,11 +17,16 @@ body {
     justify-content: center;
     position: absolute;
     top: 50px;
-    height: 110vh;
+    height: 130vh;
 }
 .font {
     font-family: 'Oswald', sans-serif;
 font-family: 'Space Grotesk', sans-serif;
+}
+.font-IBMPlexMono {
+    font-family: 'IBM Plex Mono', monospace;
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Space Grotesk', sans-serif; */
 }
 @media (max-width: 625px) {
     body {
@@ -29,5 +35,6 @@ font-family: 'Space Grotesk', sans-serif;
          position: relative;
          justify-content: start;
          background-color: #0F6292;
+         height: 100vh;
      }
 }
