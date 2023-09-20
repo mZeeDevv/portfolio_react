@@ -1,8 +1,14 @@
 import React from 'react'
 import profile from '../media/profile.png'
+import intro from '../media/intro.png'
+import {easeOut, motion as m} from 'framer-motion';
 export default function About() {
   return (
-    <div className='p-1 w-full'>
+    <m.div 
+    initial={{paddingTop: 10, opacity: 0}}
+    animate={{paddingTop: 4,opacity: 1}}
+    transition={{duration: 0.2, ease: easeOut}}
+    className='p-1 w-full'>
         <div className='flex text-center content-center items-center text-xs'> 
        <div className='flex relative'>
        <img className='md:w-[40px] md:h-[40px] rounded-full border border-white relative w-[20px] h-[20px]'
@@ -26,24 +32,27 @@ export default function About() {
            </p>
            </div>
         </div>
-        <div className='md:pl-10 font-IBMPlexMono text-xs md:text-[15px] leading-5  '>
+        <div className='md:pl-10 font-IBMPlexMono text-xs md:text-[15px] md:leading-5 
+        pl-6 text-[8px]'>
           <p>Hi, I'm Hamza, and I'm really into making websites. I started learning about this stuff in 2021, 
             and I've been practicing and learning more about it ever since. My main focus is using React.js 
             to make websites more interesting and interactive.</p>
 
-            <p className='md:py-7'>
-            I'm currently a Computer Science student at the International Islamic University in Islamabad. I've also been a mentor at <a className='text-black underline'>Major League Hacking (MLH)</a>. I like challenges, 
+            <p className='md:pt-5 pt-2'>
+            I'm currently a Computer Science student at the <a className='text-black underline'>International Islamic University Islamabad</a>. I've also been a mentor at <a className='text-black underline'>Major League Hacking (MLH)</a>. I like challenges, 
             and I always try to stay updated on the latest trends in web development. Whether it's making the front part of a website look nice or 
             making sure everything works smoothly behind the scenes, I enjoy writing good code that turns ideas into reality.
             </p>
 
-            <p className='md:py-3'>
+            <p className='md:py-5 py-2'>
             Outside of my academic and professional pursuits, I'm leading a community called <a className='text-black underline' >Devconnect</a> at my university. 
             DevConnect is dedicated to helping students enhance their technical and non-technical skills, providing them with a well-rounded education
             .I'm excited about the future of web development and look forward to contributing to this dynamic field. If you share my passion for technology and coding, feel free to connect with me. Together, 
             we can explore the endless possibilities that the world of web development has to offer!
             </p>
+            <p className='md:pt-5 pt-1'>Feel free to take a look around my site, and explore all of the projects! :)</p>
+            <img src={intro} alt="coverImage" className='md:py-3 py-2' />
         </div>
-    </div>
+    </m.div>
   )
 }

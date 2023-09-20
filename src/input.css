@@ -25,9 +25,26 @@ font-family: 'Space Grotesk', sans-serif;
 }
 .font-IBMPlexMono {
     font-family: 'IBM Plex Mono', monospace;
-    /* font-family: 'Oswald', sans-serif; */
-    /* font-family: 'Space Grotesk', sans-serif; */
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
 }
+@keyframes undefined {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(4px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.float_sm {
+    animation: undefined 3s infinite;
+    animation-delay: .5s;
+}
+
+
 @media (max-width: 625px) {
     body {
         width: 100%; 

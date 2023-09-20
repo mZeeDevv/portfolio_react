@@ -11,7 +11,7 @@ export default function Container() {
 
   return (
     <div
-     className='border-4 border-black mx-auto md:h-[750px] md:w-[960px] bg-[#ECF2FF] flex
+     className='border-4 border-black mx-auto md:w-[960px] bg-[#ECF2FF] flex
      md:p-4 md:p-2 border-double rounded-md'
     >
       <Taskbar/>

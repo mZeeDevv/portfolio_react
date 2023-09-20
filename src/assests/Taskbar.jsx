@@ -2,9 +2,9 @@ import React from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import {SiLinkedin} from 'react-icons/si'
 import {FaSquareGithub, FaDiagramProject, FaSquareXTwitter, FaHammer} from 'react-icons/fa6'
-import {MdOutlineInsertPageBreak} from 'react-icons/md'
 import {IoMdContact} from 'react-icons/io'
 import {RiContactsFill} from 'react-icons/ri'
+import {IoIosPeople} from 'react-icons/io'
 export default function Taskbar() {
   const location = useLocation();
   const naviagte = useNavigate();
@@ -44,8 +44,8 @@ export default function Taskbar() {
         ${router("/resume") && "border-b-blue-500"}`}
         onClick={() => naviagte("/resume")}
         >
-          <MdOutlineInsertPageBreak/>
-          <p className='hidden md:inline-block ml-1'>Resume</p>
+          <IoIosPeople/>
+          <p className='hidden md:inline-block ml-1'>Communities</p>
           </li>
         <li 
         className={`flex mt-9 cursor-pointer border-b-2 border-transparent items-center  text-center justify-center
