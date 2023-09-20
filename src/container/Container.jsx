@@ -20,7 +20,7 @@ export default function Container() {
       <Route path='/' element={<About/>} />
       <Route path='/Contact' element={<Contact/>} />
       <Route path='/skills' element={<Skills/>} />
-      <Route path='/resume' element={<Resume/>} />
+      <Route path='/communities' element={<Resume/>} />
       <Route path='/projects' element={<Projects/>} />
      </Routes>
      </div>

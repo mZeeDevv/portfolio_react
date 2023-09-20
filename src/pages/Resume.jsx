@@ -13,7 +13,7 @@ export default function Resume() {
     <div>
     
      <div className='flex justify-center'>
-        <div className='flex items-center shadow-xl shadow-gray-300 md:p-2 md:my-3 float_sm border'>
+        <div className='flex items-center md:shadow-xl shadow-sm shadow-gray-300 md:p-2 p-1 md:my-3 float_sm border '>
         <img src={mlh} alt="mlh.png" className='border border-black rounded-full h-10 md:w-10
         '
         />
@@ -23,7 +23,7 @@ export default function Resume() {
         </div>
         </div>
      </div>
-     <p className='md:my-3 md:text-center text-xs my-4 md:text-[15px] md:leading-6'>
+     <p className='md:my-3 md:text-center text-xs my-4 md:text-[15px] md:leading-6 leading-4'>
       <a href='https://mlh.io/about' className='text-black underline'>Major League Hacking (MLH)</a> is the official student hackathon league.
       One of the things that truly ignites my excitement is taking part in hackathons hosted by MLH. 
       These events provide the perfect platform to tackle real-world challenges, transform ideas into tangible projects, and connect with like-minded individuals from diverse backgrounds.
@@ -33,7 +33,7 @@ export default function Resume() {
        
 
       <div className='flex justify-center'>
-        <div className='flex items-center shadow-xl shadow-gray-300 md:p-2 md:my-3 float_sm border'>
+        <div className='flex items-center md:shadow-xl shadow-sm shadow-gray-300 md:p-2 p-1 md:my-3 float_sm border'>
         <img src={devconnect} alt="mlh.png" className='border border-black rounded-full h-10 w-10'/>
         <div className='mx-3 text-xs md:text-[15px]'>
         <p className='text-black text-center'>Founder</p>
@@ -41,7 +41,7 @@ export default function Resume() {
         </div>
         </div>
      </div>
-     <p className='md:my-3 md:text-center text-xs my-4 md:text-[15px] md:leading-6'>
+     <p className='md:my-3 md:text-center text-xs my-4 md:text-[15px] md:leading-6 leading-4'>
      I believe in the power of community and the transformative impact of technology. My journey began when I entered university, and I couldn't help but notice the 
      lack of awareness and opportunities for students to engage with the ever-evolving world of technology and innovation.In 2022, 
      I decided to take matters into my own hands and embarked on a mission to bridge this gap. That's when <span className='text-black underline'>Devconnect</span> was born.

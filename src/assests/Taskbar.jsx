@@ -41,8 +41,8 @@ export default function Taskbar() {
           </li>
         <li 
         className={`flex mt-9 cursor-pointer border-b-2 border-transparent items-center text-center justify-center
-        ${router("/resume") && "border-b-blue-500"}`}
-        onClick={() => naviagte("/resume")}
+        ${router("/communities") && "border-b-blue-500"}`}
+        onClick={() => naviagte("/communities")}
         >
           <IoIosPeople/>
           <p className='hidden md:inline-block ml-1'>Communities</p>
