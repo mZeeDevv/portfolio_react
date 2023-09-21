@@ -3,6 +3,7 @@ import {easeOut, motion as m} from 'framer-motion';
 import mlh from '../media/mlh.png'
 import devconnect from '../media/Cover.png'
 import hack from '../media/hack.png'
+import pcImg from '../media/pc.jpg'
 export default function Resume() {
   return (
     <m.div 
@@ -50,13 +51,26 @@ export default function Resume() {
       </p>
 
       <div className='flex justify-center py-2 border-t-2'>  
-      <div>
+
+      
+      <div className='px-2'>
       <img src={hack} alt="hackathons" className='md:h-[200px] md:w-[350px] border border-gray-500 rounded
       h-[150px] w-full
       ' />
       <p className='md:text-xs text-center font-IBMPlexMono text-gray-400 underline md:py-1 text-[10px]'>Picture taken during project presentation (Hackathon)</p>
-        </div>        
+        </div> 
+
+
+        <div>
+      <img src={pcImg} alt="hackathons" className='md:h-[230px] md:w-[230px] border border-gray-500 rounded mx-auto
+      h-[150px] w-full
+      ' />
+      <p className='md:text-xs text-center font-IBMPlexMono text-gray-400 underline md:py-1 text-[10px]'>Random picture taken during task at Computer Lab (2023)</p>
+        </div> 
+
       </div>
+
+      
     </div>
 
     </m.div>
