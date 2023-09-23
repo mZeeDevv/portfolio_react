@@ -54,25 +54,22 @@ export default function Resume() {
 
       
       <div className='px-2'>
-      <img src={hack} alt="hackathons" className='md:h-[200px] md:w-[350px] border border-gray-500 rounded
-      h-[150px] w-full
-      ' />
+     <div className='max-w-sm'>
+     <img src={hack} alt="hackathons" className=''/>
+      
+     </div>
       <p className='md:text-xs text-center font-IBMPlexMono text-gray-400 underline md:py-1 text-[10px]'>Picture taken during project presentation (Hackathon)</p>
         </div> 
 
 
         <div>
-      <img src={pcImg} alt="hackathons" className='md:h-[230px] md:w-[230px] border border-gray-500 rounded mx-auto
-      h-[150px] w-full
-      ' />
+     <div className='max-w-sm'>
+     <img src={pcImg} alt="hackathons" className='h-[200px] border border-gray-500 rounded mx-auto'/>
+     </div>
       <p className='md:text-xs text-center font-IBMPlexMono text-gray-400 underline md:py-1 text-[10px]'>Random picture taken during task at Computer Lab (2023)</p>
         </div> 
-
       </div>
-
-      
     </div>
-
     </m.div>
   )
 }

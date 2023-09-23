@@ -1,8 +1,13 @@
 import React from 'react'
+import {easeOut, motion as m} from 'framer-motion';
 
 export default function Contact() {
   return (
-    <div>
+    <m.div
+    initial={{paddingTop: 10, opacity: 0}}
+animate={{paddingTop: 4,opacity: 1}}
+transition={{duration: 0.2, ease: easeOut}}
+    >
       <a href='mailto:hamzeekhattak56@gmail.com' className='flex justify-between bg-gray-200 md:p-2 md:m-2 p-1 m-3 border-2 border-[#0F6292] text-sm'>
         <p className='font-mono'>Send me an email *_*</p>
         <p className='text-black'>
@@ -63,6 +68,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-    </div> //main
+    </m.div> //main
   )
 }

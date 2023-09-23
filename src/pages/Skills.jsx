@@ -47,14 +47,13 @@ export default function Skills() {
     <div className='md:my-2'>
     <p className='text-center font-IBMPlexMono md:text-xl'>My Experiences</p>
       <div className='flex items-center shadow-xl my-2 relative'>
-        <div>
-          <img src={techno} alt="techno" className='bg-black md:h-[60px] md:w-[60px] rounded-full border border-white
-          h-[30px] w-[30px]
-          '/>
+        <div className='max-w-[60px] h-[60px]'>
+          <img src={techno} alt="techno" className='bg-black' 
+          />
         </div>
         <div className='font mx-2 md:text-xs'>
           <a href="https://www.technohacks.co.in/#home" className=' text-black text-[12px] md:text-sm'>TechnoHacks EduTech</a>
-          <p className='text-gray-500 md:text-xs text-[9px]'>Web Developer Intern / C++ Programmer</p>
+          <p className='text-gray-500 md:text-xs text-[7px]'>Web Developer Intern / C++ Programmer</p>
           <p className='text-gray-500 md:text-xs text-[10px]'>Duration : 4 weeks</p>
         </div>
           <a href="https://drive.google.com/file/d/1oJZtLL2SE0yUKnIysMwU28EMOvgGKDiI/view?usp=sharing" className='absolute  text-gray-600 right-2 font md:text-sm text-[8px]'>Offer Letter</a>
@@ -62,9 +61,8 @@ export default function Skills() {
 
 
       <div className='flex items-center shadow-lg md:my-3 relative'>
-        <div>
-          <img src={codesoft} alt="techno" className='bg-black md:h-[60px] md:w-[60px] rounded-full border border-gray-500
-          h-[30px] w-[30px]'/>
+        <div className='max-w-[60px] border rounded-full border-black'>
+          <img src={codesoft} alt="techno"/>
         </div>
         <div className='font mx-2 md:text-xs'>
           <a href="https://www.technohacks.co.in/#home" className=' text-black text-[12px] md:text-sm'>CodeSoft</a>
