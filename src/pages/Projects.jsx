@@ -4,6 +4,10 @@ import weather from '../media/weather.png'
 import multi from '../media/mutli.jpg'
 import Motors from '../media/Motors.png'
 import {easeOut, motion as m} from 'framer-motion';
+import photo from '../media/photogra.jpg'
+import joker from '../media/laugh.jpeg'
+import Mechanics from '../media/mechanics.jpg'
+
 
 
 export default function Projects() {
@@ -33,11 +37,75 @@ transition={{duration: 0.2, ease: easeOut}}
         <div className='flex justify-center'>
         <button className=" bg-[#0F6292] hover:bg-[#0f6292f1] border-[#5687a4] rounded-sm text-xs
                        hover:border-[#141f25] border text-white p-1 m-2" type="button">
-                    <a href="https://github.com/mZeeDevv/Hackathon_Project_MLH-V2" className='font'>View Repository</a>
+                    <a href="https://github.com/mZeeDevv/Hackathon_Project_MLH-V2" className='font'>Project Preview</a>
                   </button>
         </div>
       </div>
+
+      <div className="max-w-[250px] rounded overflow-hidden shadow-lg m-3 border-2 border-[#0F6292]">
+        <img className="w-full" src={Mechanics} alt="Sunset in the mountains"/>
+        <div className="px-3 py-2">
+          <div className="font-bold text-md text-center mb-2">Auto Mobile Workshop (V2) </div>
+          <p className="text-gray-700 text-sm">
+            A project created for auto mobile workshop owner to provide his services. This project contact contact page (fully functional), Locations and offers.
+          </p>
+        </div>
+        <div className="flex justify-center my-2">
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Hackathon Project</span>
+        </div>
+        <div className='flex justify-center'>
+        <button className=" bg-[#0F6292] hover:bg-[#0f6292f1] border-[#5687a4] rounded-sm text-xs
+                       hover:border-[#141f25] border text-white p-1 m-2" type="button">
+                    <a href="https://test-sessions.github.io/Mechanic/index.html" className='font'>Project Preview</a>
+                  </button>
+        </div>
+      </div>
+
       
+      <div className="max-w-[250px] rounded shadow-lg  m-3 border-2 border-[#0F6292]">
+        <img className="w-full max-h-[200px]" src={photo
+        }alt="Sunset in the mountains"/>
+        <div className="px-3 py-2">
+          <div className="font-bold text-md text-center mb-2">Photographer Website</div>
+          <p className="text-gray-700 text-sm">
+          A website that a Photographer can use to provide his services. By using this website he can introduce his self, sell this services and many more.
+          </p>
+        </div>
+        <div className="flex justify-center my-2">
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Pratice Project</span>
+        </div>
+        <div className='flex justify-center'>
+        <button className=" bg-[#0F6292] hover:bg-[#0f6292f1] border-[#5687a4] rounded-sm text-xs
+                       hover:border-[#141f25] border text-white p-1 m-2" type="button">
+                    <a href="https://mzeedevv.github.io/Photographer-Website/" className='font'>Project Preview</a>
+                  </button>
+        </div>
+      </div>
+
+      <div className="max-w-[250px] rounded shadow-lg  m-3 border-2 border-[#0F6292]">
+        <img className="w-full max-h-[200px]" src={joker
+        }alt="Sunset in the mountains"/>
+        <div className="px-3 py-2">
+          <div className="font-bold text-md text-center mb-2">Joke Generator </div>
+          <p className="text-gray-700 text-sm">
+          Some of bad jokers are stored in JavaScript file using arrays. Use can get different type of jokes on each click.
+          </p>
+        </div>
+        <div className="flex justify-center my-2">
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Pratice Project</span>
+        </div>
+        <div className='flex justify-center'>
+        <button className=" bg-[#0F6292] hover:bg-[#0f6292f1] border-[#5687a4] rounded-sm text-xs
+                       hover:border-[#141f25] border text-white p-1 m-2" type="button">
+                    <a href="https://mzeedevv.github.io/Joke_Generator/" className='font'>Project Preview</a>
+                  </button>
+        </div>
+      </div>
+
+
+
+
+
       <div className="max-w-[250px] rounded shadow-lg  m-3 border-2 border-[#0F6292]">
         <img className="w-full max-h-[200px]" src={weather} alt="Sunset in the mountains"/>
         <div className="px-3 py-2">
@@ -52,7 +120,7 @@ transition={{duration: 0.2, ease: easeOut}}
         <div className='flex justify-center'>
         <button className=" bg-[#0F6292] hover:bg-[#0f6292f1] border-[#5687a4] rounded-sm text-xs
                        hover:border-[#141f25] border text-white p-1 m-2" type="button">
-                    <a href="https://mzeedevv.github.io/weather_app/" className='font'>View Repository</a>
+                    <a href="https://mzeedevv.github.io/weather_app/" className='font'>Project Preview</a>
                   </button>
         </div>
       </div>
@@ -72,7 +140,7 @@ transition={{duration: 0.2, ease: easeOut}}
         <div className='flex justify-center'>
         <button className=" bg-[#0F6292] hover:bg-[#0f6292f1] border-[#5687a4] rounded-sm text-xs
                        hover:border-[#141f25] border text-white p-1 m-2" type="button">
-                    <a href="https://github.com/mZeeDevv/All_API_Projects" className='font'>View Repository</a>
+                    <a href="https://github.com/mZeeDevv/All_API_Projects" className='font'>Project Preview</a>
                   </button>
         </div>
       </div>
@@ -95,7 +163,7 @@ transition={{duration: 0.2, ease: easeOut}}
         <div className='flex justify-center'>
         <button className=" bg-[#0F6292] hover:bg-[#0f6292f1] border-[#5687a4] rounded-sm text-xs
                        hover:border-[#141f25] border text-white p-1 m-2" type="button">
-                    <a href="https://github.com/mZeeDevv/Multiplication-app" className='font'>View Repository</a>
+                    <a href="https://github.com/mZeeDevv/Multiplication-app" className='font'>Project Preview</a>
                   </button>
         </div>
       </div>
