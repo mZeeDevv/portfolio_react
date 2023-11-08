@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio_react%20/static/css/main.879a02a6.css",
+    "main.js": "/portfolio_react%20/static/js/main.0644aca2.js",
+    "static/js/787.956918a5.chunk.js": "/portfolio_react%20/static/js/787.956918a5.chunk.js",
+    "static/media/hack.png": "/portfolio_react%20/static/media/hack.97f08284d2f87a3c0c27.png",
+    "static/media/Motors.png": "/portfolio_react%20/static/media/Motors.ded2f9d42dfc6d2ba3e0.png",
+    "static/media/home.jpg": "/portfolio_react%20/static/media/home.caa35ed1efc9df3ec9af.jpg",
+    "static/media/profile.png": "/portfolio_react%20/static/media/profile.714f8fe4fd50cb64dd3a.png",
+    "static/media/API.jpg": "/portfolio_react%20/static/media/API.07be3042b16d30b475a7.jpg",
+    "static/media/photogra.jpg": "/portfolio_react%20/static/media/photogra.ea76c2293e09cd3e181a.jpg",
+    "static/media/pc.jpg": "/portfolio_react%20/static/media/pc.a727d81add9ebfff8507.jpg",
+    "static/media/techno.png": "/portfolio_react%20/static/media/techno.4456c43c05057c787856.png",
+    "static/media/laugh.jpeg": "/portfolio_react%20/static/media/laugh.b83450c491917df67531.jpeg",
+    "static/media/weather.png": "/portfolio_react%20/static/media/weather.e367fa94e911ec999d18.png",
+    "static/media/codesoft.png": "/portfolio_react%20/static/media/codesoft.9966bb2b21b450992e9c.png",
+    "static/media/intro.png": "/portfolio_react%20/static/media/intro.b5d51e5465158346e1c3.png",
+    "static/media/Cover.png": "/portfolio_react%20/static/media/Cover.16e5adf243cb3f56757c.png",
+    "index.html": "/portfolio_react%20/index.html",
+    "main.879a02a6.css.map": "/portfolio_react%20/static/css/main.879a02a6.css.map",
+    "main.0644aca2.js.map": "/portfolio_react%20/static/js/main.0644aca2.js.map",
+    "787.956918a5.chunk.js.map": "/portfolio_react%20/static/js/787.956918a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.879a02a6.css",
+    "static/js/main.0644aca2.js"
+  ]
+}
