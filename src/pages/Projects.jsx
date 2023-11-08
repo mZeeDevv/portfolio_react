@@ -7,6 +7,7 @@ import {easeOut, motion as m} from 'framer-motion';
 import photo from '../media/photogra.jpg'
 import joker from '../media/laugh.jpeg'
 import Mechanics from '../media/mechanics.jpg'
+import home from '../media/home.jpg'
 
 
 
@@ -23,7 +24,7 @@ transition={{duration: 0.2, ease: easeOut}}
 <div className='flex flex-wrap'>
       
 <div className="max-w-[250px] rounded overflow-hidden shadow-lg m-3 border-2 border-[#0F6292]">
-        <img className="w-full" src={Motors} alt="Sunset in the mountains"/>
+        <img className="w-full" src={home} alt="Sunset in the mountains"/>
         <div className="px-3 py-2">
           <div className="font-bold text-md text-center mb-2">Realthor Project</div>
           <p className="text-gray-700 text-sm">
