@@ -22,6 +22,26 @@ transition={{duration: 0.2, ease: easeOut}}
 </p>
 <div className='flex flex-wrap'>
       
+<div className="max-w-[250px] rounded overflow-hidden shadow-lg m-3 border-2 border-[#0F6292]">
+        <img className="w-full" src={Motors} alt="Sunset in the mountains"/>
+        <div className="px-3 py-2">
+          <div className="font-bold text-md text-center mb-2">Realthor Project</div>
+          <p className="text-gray-700 text-sm">
+            A complex project created with React and  <b className='text-xs'>Firebase Database</b> in 2023. The project is fully 
+            functional.
+          </p>
+        </div>
+        <div className="flex justify-center my-2">
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Complex Project</span>
+        </div>
+        <div className='flex justify-center'>
+        <button className=" bg-[#0F6292] hover:bg-[#0f6292f1] border-[#5687a4] rounded-sm text-xs
+                       hover:border-[#141f25] border text-white p-1 m-2" type="button">
+                    <a href="https://github.com/mZeeDevv/portfolio_react" className='font'>Project Preview</a>
+                  </button>
+        </div>
+      </div>
+
       <div className="max-w-[250px] rounded overflow-hidden shadow-lg m-3 border-2 border-[#0F6292]">
         <img className="w-full" src={Motors} alt="Sunset in the mountains"/>
         <div className="px-3 py-2">
